@@ -8,7 +8,17 @@
     android:visibility="visible"
     tools:context=".MainActivity"
     tools:layout_editor_absoluteY="81dp"
-    tools:visibility="visible">
+    tools:visibility="visible"
+    tools:ignore="ExtraText">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="92dp"
+        android:layout_height="114dp"
+        android:layout_marginBottom="528dp"
+        android:src="@drawable/download"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="175dp" />
 
     <TextView
         android:id="@+id/textView"
@@ -18,10 +28,10 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintHorizontal_bias="0.317"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.221" />
+        app:layout_constraintVertical_bias="0.247" />
 
     <TextView
         android:id="@+id/textView4"
@@ -31,10 +41,10 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.397"
+        app:layout_constraintHorizontal_bias="0.322"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.312" />
+        app:layout_constraintVertical_bias="0.309" />
 
     <TextView
         android:id="@+id/textView2"
@@ -93,5 +103,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.659" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
